@@ -16,4 +16,4 @@ annual_rainfall += september_to_december_rainfall
 print(annual_rainfall)
 
 
-Output: 45.21
+#Output: 45.21
