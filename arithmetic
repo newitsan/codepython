@@ -1,0 +1,9 @@
+product=2*2
+print(product)
+remainder=189%11
+print(remainder)
+
+
+
+Output: 4
+        2
