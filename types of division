@@ -1,0 +1,16 @@
+cucumbers = 100
+num_people = 6
+# whole cucumbers per person
+whole_cucumbers_per_person = cucumbers/num_people
+# whole result
+print whole_cucumbers_per_person
+# float cucumbers per person
+float_cucumbers_per_person = float(cucumbers)/num_people
+# float result
+print(float_cucumbers_per_person)
+
+
+
+
+#Output:16
+#Output: 16.6666666667
