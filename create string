@@ -1,0 +1,10 @@
+my_string="London"
+my_string1="Newyork"
+print len(my_string)
+print my_string.upper()
+print "%s, %s" %(my_string, my_string1)
+
+
+#Output:6
+        #LONDON
+        #London, Newyork
