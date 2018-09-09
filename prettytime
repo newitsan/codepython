@@ -1,0 +1,10 @@
+from datetime import datetime
+now = datetime.now()
+
+print '%02d-%02d-%04d' %(now.day,now.month,now.year)
+print '%02d:%02d:%02d' %(now.hour,now.minute,now.second)
+print '%02d/%02d/%04d %02d:%02d:%02d' % (now.day,now.month,now.year,now.hour,now.minute,now.second)
+
+#Output: 09-09-2018
+         #12:20:01
+         #09/09/2018 12:20:01
