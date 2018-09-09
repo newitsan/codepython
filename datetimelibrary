@@ -1,0 +1,13 @@
+from datetime import datetime
+datetime.now()
+print datetime.now()
+print now.day
+print now.month
+print now.year
+
+
+
+# Output: 2018-09-09 11:10:36.510089
+          #9
+          #9
+          #2018
