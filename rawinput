@@ -1,0 +1,12 @@
+response = "Y" 
+
+answer = raw_input("Enter left or right:")
+if answer == "left":
+    print "Data and privacy is secured"
+else:
+  	print "Data is breached"
+    
+    
+    
+# Output: Enter left or right:Right
+          #Data is breached
