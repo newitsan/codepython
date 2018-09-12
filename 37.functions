@@ -1,0 +1,12 @@
+number = float(raw_input("Enter the number:"))
+def cube(number):
+  return number**5
+def by_five(number):
+  if (number%5 == 0):
+    return number**5
+  else:
+    return False
+print by_five(number)
+
+# Output: Enter the number:5
+          #3125.0
