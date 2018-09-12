@@ -1,0 +1,9 @@
+number = float(raw_input("Enter the number:"))
+import math
+
+def san(number):
+  return number
+print math.sqrt(number)
+
+# Output : Enter the number:256
+           #16.0
