@@ -1,0 +1,17 @@
+value = float(raw_input("Enter the input value:"))
+
+def first(value): 
+ return value+1
+ #print "Output from first function is %d" % value
+#first(value)
+
+def second(value):
+ return first(value) + 2
+ #print "Output from second function is %d" % one
+#second(value) 
+print first(value)
+print second(value)
+
+#Output: Enter the input value:2
+         #3.0
+         #5.0
