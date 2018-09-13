@@ -1,0 +1,6 @@
+backpack = ['xylophone', 'dagger', 'tent', 'bread loaf']
+backpack.remove("dagger")
+backpack.remove("tent")
+print backpack
+
+#Output: ['xylophone', 'bread loaf']
