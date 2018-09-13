@@ -1,0 +1,15 @@
+animals = ["aardvark", "badger", "duck", "emu", "fennec fox"]
+#duck_index = animals.index("duck") # Use index() to find "duck"
+print animals.index("emu")
+animals.insert(3,"hen")
+print animals.index("fennec fox")
+animals.insert(4,"cock")
+# Your code here!
+
+
+print animals # Observe what prints after the insert operation
+
+#Output:
+#3
+#5
+#['aardvark', 'badger', 'duck', 'hen', 'cock', 'emu', 'fennec fox']
