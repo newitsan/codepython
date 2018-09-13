@@ -1,0 +1,18 @@
+animals = "mathatfat"
+
+# The first three characters of animals
+a = animals[:3]
+
+# The fourth through sixth characters
+b = animals[3:6]
+
+# From the seventh character to the end
+c = animals [6:]
+print a
+print b
+print c
+
+#Output:
+#mat
+#hat
+#fat
