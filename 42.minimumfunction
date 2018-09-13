@@ -1,0 +1,5 @@
+minimum = min(6,7,8)
+
+print minimum
+
+#Output: 6
