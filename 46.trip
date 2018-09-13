@@ -1,0 +1,30 @@
+#hotel_cost
+def hotel_cost(nights):
+  #$140 is the price per night
+  return 140*nights
+#plane_ride_cost(city)
+def plane_ride_cost(city):
+  if city == "Charlotte":
+    return 183
+  elif city == "Tampa":
+    return 220
+  elif city == "Pittsburgh":
+    return 222
+  elif city == "Los Angeles":
+    return 475
+#rental_car_cost(days)
+def rental_car_cost(days):
+  #rental price per day is $40
+  total_cost= days*40
+  if days>=7:
+    total_cost -= 50
+  elif days>=3:
+    total_cost -= 20
+    
+  return total_cost
+  #Total of all three cost
+def trip_cost(city,days,spending_money):
+  return rental_car_cost(days) + hotel_cost(days-1) + plane_ride_cost(city)+spending_money
+print trip_cost("Los Angeles",5,600)
+
+# Output: 1815
