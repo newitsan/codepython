@@ -1,0 +1,13 @@
+s = raw_input("Enter the word:")
+def shut_down(s):
+  if s == "yes":
+    return "shutting down"
+  
+  elif s == "no":
+    return "shutdown aborted"
+  else:
+    return "Sorry"
+print shut_down(s)
+
+#output:Enter the word:yes
+        #shutting down
