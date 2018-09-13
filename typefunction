@@ -1,0 +1,7 @@
+print type(98)
+print type(9.8)
+print type("98")
+
+#Output:<type 'int'>
+        #<type 'float'>
+        #<type 'str'>
