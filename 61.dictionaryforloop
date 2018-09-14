@@ -1,0 +1,11 @@
+webster = {
+  "Aardvark" : "A star of a popular children's cartoon show.",
+  "Baa" : "The sound a goat makes.",
+  "Carpet": "Goes on the floor.",
+  "Dab": "A small amount."
+}
+for names in webster:
+  print webster
+  
+  # Output {'Aardvark': "A star of a popular children's cartoon show.", 
+  #'Carpet': 'Goes on the floor.', 'Dab': 'A small amount.', 'Baa': 'The sound a goat makes.'}
