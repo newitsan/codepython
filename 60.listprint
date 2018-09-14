@@ -1,0 +1,9 @@
+names = ["Adam","Alex","Mariah","Martine","Columbus"]
+for names in names:
+  print names
+  
+  #Output: Adam
+           #Alex
+           #Mariah
+           #Martine
+           #Columbus
