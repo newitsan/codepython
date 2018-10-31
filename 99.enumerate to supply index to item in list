@@ -1,0 +1,12 @@
+choices = ['pizza', 'pasta', 'salad', 'nachos']
+
+print 'Your choices are:'
+for index, item in enumerate(choices):
+  print index+1, item
+  
+  #Result:
+Your choices are:
+1 pizza
+2 pasta
+3 salad
+4 nachos
