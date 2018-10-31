@@ -1,0 +1,26 @@
+numbers  = [7, 9, 12, 54, 99]
+
+print "This list contains: "
+
+for num in numbers:
+  print num
+  
+print 
+
+# Add your loop below!
+for num in numbers:
+  print num**2
+  
+  #Result
+This list contains: 
+7
+9
+12
+54
+99
+
+49
+81
+144
+2916
+9801
