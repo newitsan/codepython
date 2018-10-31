@@ -1,0 +1,19 @@
+num = 1
+
+while num<11:  # Fill in the condition
+  # Print num squared
+  print num**2
+  # Increment num (make sure to do this!)
+  num+=1
+  
+  #Result:
+1
+4
+9
+16
+25
+36
+49
+64
+81
+100
