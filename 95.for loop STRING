@@ -1,0 +1,24 @@
+thing = "spam!"
+
+for c in thing:
+  print c
+
+print 
+
+word = "eggs!"
+# Your code here!
+for c in word:
+  print c
+  
+  #Result:
+s
+p
+a
+m
+!
+
+e
+g
+g
+s
+!
