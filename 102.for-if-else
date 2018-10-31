@@ -1,0 +1,15 @@
+word="python"
+for char in word:
+  if char=='p':
+    print "c"
+  else:
+    print char
+    
+    
+#result
+c
+y
+t
+h
+o
+n
