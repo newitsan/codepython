@@ -1,0 +1,11 @@
+def remove_duplicates(num):
+  new_list =[]
+  for i in num:
+    if i not in new_list:
+      new_list.append(i)
+  return new_list
+print remove_duplicates([1,1,2,2,3,4,6,3,4])
+
+
+#result
+[1, 2, 3, 4, 6]
