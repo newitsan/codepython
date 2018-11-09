@@ -1,0 +1,14 @@
+my_dict = {
+  'name': 'Nick',
+  'age':  31,
+  'occupation': 'Dentist',
+}
+
+print my_dict.keys()
+print my_dict.values()
+
+
+
+#result
+['age', 'name', 'occupation']
+[31, 'Nick', 'Dentist']
