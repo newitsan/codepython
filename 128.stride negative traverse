@@ -1,0 +1,8 @@
+to_one_hundred = range(101)
+# Add your code below!
+backwards_by_tens = to_one_hundred[::-10]
+print backwards_by_tens
+
+
+#result
+[100, 90, 80, 70, 60, 50, 40, 30, 20, 10, 0]
