@@ -1,0 +1,10 @@
+my_list = range(1, 11)
+
+# Add your code below!
+backwards = my_list[::-1]
+print backwards
+
+
+
+#result
+[10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
