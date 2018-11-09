@@ -1,0 +1,12 @@
+my_dict ={
+  "film":"sarkar",
+  "rating":"8.5",
+  "hero" :"vijay",
+  "heroin":"varalakshmi"
+}
+print my_dict.items()
+
+
+
+#result
+[('rating', '8.5'), ('heroin', 'varalakshmi'), ('hero', 'vijay'), ('film', 'sarkar')]
