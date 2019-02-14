@@ -1,0 +1,15 @@
+def longestevenlengthword(sentence):
+    firstword = sentence.split()
+    
+    for x in firstword[:]:
+        if len(x)%2==1:
+            firstword.remove(x)
+    return max(firstword, key=len)
+result = longestevenlengthword("I am new to python")
+print (result)
+
+
+
+
+#Output
+python
